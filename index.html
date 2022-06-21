@@ -1,6 +1,52 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
-  <body>
-      <hl>Welcome to Developer</hl>
-  </body>
+<head>
+    <title>Loan Application Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Title">
+            <h2>Loan Application Form</h2></div>
+        <div class="form">
+            <div class="input_fild">
+                <label for="Full Name"><b>Full Name</b></label>
+                <input type="text" class="input"
+                 placeholder="Enter your full Name"
+                 name="Full Name" required>
+                <label for="Email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" 
+                name="Email" required>
+                <label for="Password"><b>Password</b></label>
+                <input type="Password" placeholder="Enter Password" 
+                name="Password" required>
+                <label for="Password-repeat"><b>Password-repeat</b></label>
+                <input type="Password" placeholder="Repeat Password" 
+                name="Password-repeat" required>
+                <label for="PANcard"><b>PANcard</b></label>
+                <input type="PANcard" placeholder="Enter PAN no">
+                <label for="tentacles">Number of tentacles (0-9):</label>
+                <input type="number" id="tentacles" name="tentacles"
+                 min="0" max="9">
+            </div>
+            <body>
+<div class="center">
+<canvas id="captcha">captcha text</canvas>
+<input id="textBox" type="text" name="text">
+<div id="buttons">
+<input id="submitButton" type="submit">
+<button id="refreshButton" type="submit">Refresh</button>
+</div>
+<span id="output"></span>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+    </div>
+
+</body>
+
 </html>
+
+  
